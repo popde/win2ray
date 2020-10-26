@@ -1,0 +1,131 @@
+﻿// 号开头为注释行。
+// 可以文本格式指定服务器数组，每行一个服务器配置,
+// vmess 服务器每行字段依次为 address port id network path tls
+// ss 服务器每行字段依次为 address port password shadowsocks method
+// 也可以每行一个vmess://或ss://链接
+// 本文件可以直接输入json格式的服务器数组（ 服务器可以使用subscribeUrl字段指定订阅源地址，可以指定"autoConnect":false字段禁止自动连接 ）
+[
+    {
+        "address":"rssd1.w-zo.com",
+        "id":"ZyKYC1",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"动态IP·空闲·不限流量·10M",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"jpednw.wwap1.com",
+        "id":"KhVsKh",
+        "network":"tcp",
+        "port":12010,
+        "protocol":"trojan",
+        "ps":"高速·日本JP·O227·空闲·1倍·上海中转优化·1000M",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"us74138.wwap1.com",
+        "id":"KhVsKh",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"普通·美国US·O138·空闲·不限流量·1000M",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"usr8230.wwap1.com",
+        "id":"KhVsKh",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"普通·美国US·O230·均衡·不限流量·1000M",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"l2ws.com",
+        "id":"l2",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"----------------------------",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"vipws.com",
+        "id":"vip",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"剩余:",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address":"webws.com",
+        "id":"web",
+        "network":"tcp",
+        "port":443,
+        "protocol":"trojan",
+        "ps":"官网:",
+        "subscribeUrl":"https://xbrss.com/rss/trojanqt/4g8MMUE/C_zHwQ"
+    },
+    {
+        "address": "c26s3.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GIA 直连",
+        "security": "auto",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    },
+    {
+        "address": "c26s4.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GT 直连",
+        "security": "auto",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    },
+    {
+        "address": "c26s5.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GT 直连",
+        "security": "auto",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    },
+    {
+        "address": "c26s801.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "ChinaNet 直连丨0.1x",
+        "security": "auto",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    },
+    {
+        "address": "c26s1.jamjams.net",
+        "id": "yjxz4ZBs8B",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "shadowsocks",
+        "ps": "CN2 GT 直连",
+        "security": "aes-256-gcm",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    },
+    {
+        "address": "c26s2.jamjams.net",
+        "id": "yjxz4ZBs8B",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "shadowsocks",
+        "ps": "CN2 GT 直连",
+        "security": "aes-256-gcm",
+        "subscribeUrl":"https://justmysocks3.net/members/getsub.php?service=012345&id=0a021043-fb2e-4ecd-8d17-e62922b3aca7"
+    }
+]
